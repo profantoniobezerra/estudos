@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    background-color: rgb(205, 255, 103);
+    background-color: rgb(201, 211, 181);
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
@@ -17,4 +17,21 @@ h1#principal{
 h2{
   color: rgb(75, 97, 31);
 
+}
+
+.basico{
+    color: rgb(0, 26, 26);
+    
+}
+
+.intermediario{
+    color:rgb(65, 32, 20);
+}
+
+.avancado{
+    color: brown;
+}
+
+.destaque{
+    background-color: rgba(78, 78, 201, 0.425);
 }
