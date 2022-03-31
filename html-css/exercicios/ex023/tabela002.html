@@ -12,6 +12,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th{
             border: 1px solid black;
@@ -23,10 +24,23 @@
             padding: 10px;
             background-color: lightgray;
         }
+        tbody > tr:nth-child(odd){ /*2n-1*/
+            background-color: lightgray;
+
+        }
+        tbody > tr:nth-child(even){/*2n*/
+            background-color: lightblue;
+
+        }
         thead, tfoot{
             background-color: gray;
             color: white;
 
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
         td.num{
             text-align: left;
@@ -75,11 +89,11 @@
             </tr>
             <tr>
                 <td class="num">Salvador</td>
-                <td>214 471 227</td>
+                <td>3 779 939</td>
             </tr>
             <tr>
                 <td class="num">Fortaleza</td>
-                <td>220 109 664</td>
+                <td>3 642 907</td>
             </tr>
             <tr>
                 <td class="num">Manaus</td>
@@ -87,11 +101,11 @@
             </tr>
             <tr>
                 <td class="num">Curitiba</td>
-                <td>11 654 092</td>
+                <td>3 468 575</td>
             </tr>
             <tr>
                 <td class="num">Recife</td>
-                <td>45 919 019</td>
+                <td>4 056 323	</td>
             </tr>
             <tr>
                 <td class="num">Goiania</td>
@@ -101,10 +115,7 @@
                 <td class="num">Vitória</td>
                 <td>4 468 927</td>
             </tr>
-            <tr>
-                <td class="num">Vitória</td>
-                <td>4 468 927</td>
-            </tr>
+            
             
            
 
@@ -119,5 +130,16 @@
 
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eos temporibus iste voluptate consequatur nihil exercitationem, voluptatum itaque eius quasi vitae cupiditate asperiores officiis atque corporis error non aspernatur beatae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nisi officiis asperiores officia, molestiae provident commodi voluptatum deleniti autem veniam incidunt qui, quos ea repellendus sint id inventore at nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, et nulla consequuntur quos molestiae blanditiis accusantium non quod explicabo illo quis voluptate ipsum debitis maiores quaerat temporibus, nobis reprehenderit delectus.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eos temporibus iste voluptate consequatur nihil exercitationem, voluptatum itaque eius quasi vitae cupiditate asperiores officiis atque corporis error non aspernatur beatae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nisi officiis asperiores officia, molestiae provident commodi voluptatum deleniti autem veniam incidunt qui, quos ea repellendus sint id inventore at nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, et nulla consequuntur quos molestiae blanditiis accusantium non quod explicabo illo quis voluptate ipsum debitis maiores quaerat temporibus, nobis reprehenderit delectus.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eos temporibus iste voluptate consequatur nihil exercitationem, voluptatum itaque eius quasi vitae cupiditate asperiores officiis atque corporis error non aspernatur beatae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nisi officiis asperiores officia, molestiae provident commodi voluptatum deleniti autem veniam incidunt qui, quos ea repellendus sint id inventore at nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, et nulla consequuntur quos molestiae blanditiis accusantium non quod explicabo illo quis voluptate ipsum debitis maiores quaerat temporibus, nobis reprehenderit delectus.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eos temporibus iste voluptate consequatur nihil exercitationem, voluptatum itaque eius quasi vitae cupiditate asperiores officiis atque corporis error non aspernatur beatae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nisi officiis asperiores officia, molestiae provident commodi voluptatum deleniti autem veniam incidunt qui, quos ea repellendus sint id inventore at nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, et nulla consequuntur quos molestiae blanditiis accusantium non quod explicabo illo quis voluptate ipsum debitis maiores quaerat temporibus, nobis reprehenderit delectus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eos temporibus iste voluptate consequatur nihil exercitationem, voluptatum itaque eius quasi vitae cupiditate asperiores officiis atque corporis error non aspernatur beatae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nisi officiis asperiores officia, molestiae provident commodi voluptatum deleniti autem veniam incidunt qui, quos ea repellendus sint id inventore at nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, et nulla consequuntur quos molestiae blanditiis accusantium non quod explicabo illo quis voluptate ipsum debitis maiores quaerat temporibus, nobis reprehenderit delectus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eos temporibus iste voluptate consequatur nihil exercitationem, voluptatum itaque eius quasi vitae cupiditate asperiores officiis atque corporis error non aspernatur beatae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nisi officiis asperiores officia, molestiae provident commodi voluptatum deleniti autem veniam incidunt qui, quos ea repellendus sint id inventore at nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, et nulla consequuntur quos molestiae blanditiis accusantium non quod explicabo illo quis voluptate ipsum debitis maiores quaerat temporibus, nobis reprehenderit delectus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eos temporibus iste voluptate consequatur nihil exercitationem, voluptatum itaque eius quasi vitae cupiditate asperiores officiis atque corporis error non aspernatur beatae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nisi officiis asperiores officia, molestiae provident commodi voluptatum deleniti autem veniam incidunt qui, quos ea repellendus sint id inventore at nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, et nulla consequuntur quos molestiae blanditiis accusantium non quod explicabo illo quis voluptate ipsum debitis maiores quaerat temporibus, nobis reprehenderit delectus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eos temporibus iste voluptate consequatur nihil exercitationem, voluptatum itaque eius quasi vitae cupiditate asperiores officiis atque corporis error non aspernatur beatae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nisi officiis asperiores officia, molestiae provident commodi voluptatum deleniti autem veniam incidunt qui, quos ea repellendus sint id inventore at nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, et nulla consequuntur quos molestiae blanditiis accusantium non quod explicabo illo quis voluptate ipsum debitis maiores quaerat temporibus, nobis reprehenderit delectus.</p>
 </body>
 </html>
