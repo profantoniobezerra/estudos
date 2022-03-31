@@ -17,6 +17,12 @@
             border: 1px solid black;
             padding: 10px;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
         thead, tfoot{
             background-color: gray;
             color: white;
@@ -25,6 +31,7 @@
         td.num{
             text-align: left;
         }
+        
     </style>
 </head>
 <body>
@@ -39,11 +46,12 @@
             TFOOT
                 TR,TD,TH
     -->
-    <table>
+    <table> 
+        <caption>Populações das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 150px;">População</th>
             </tr>
 
         </thead>
@@ -61,13 +69,50 @@
                 <td class="num">Rio de Janeiro</td>
                 <td>17 264 943</td>
             </tr>
+            <tr>
+                <td class="num">Brasília</td>
+                <td>3 094 325</td>
+            </tr>
+            <tr>
+                <td class="num">Salvador</td>
+                <td>214 471 227</td>
+            </tr>
+            <tr>
+                <td class="num">Fortaleza</td>
+                <td>220 109 664</td>
+            </tr>
+            <tr>
+                <td class="num">Manaus</td>
+                <td>4 490 260</td>
+            </tr>
+            <tr>
+                <td class="num">Curitiba</td>
+                <td>11 654 092</td>
+            </tr>
+            <tr>
+                <td class="num">Recife</td>
+                <td>45 919 019</td>
+            </tr>
+            <tr>
+                <td class="num">Goiania</td>
+                <td>8 269 552</td>
+            </tr>
+            <tr>
+                <td class="num">Vitória</td>
+                <td>4 468 927</td>
+            </tr>
+            <tr>
+                <td class="num">Vitória</td>
+                <td>4 468 927</td>
+            </tr>
+            
            
 
         </tbody>
 
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td><strong>0000</strong></td>
             </tr>
 
